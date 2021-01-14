@@ -16,3 +16,8 @@ ul.ddmenu a{
 ul.ddmenu ul{
 	display: none;
 }
+
+ul.ddmenu a:hover{
+	background-color: brown;
+	color: darkred;
+}
