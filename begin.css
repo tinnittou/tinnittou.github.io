@@ -4,7 +4,7 @@ body{
     background:#000000;
     no-repeat
 }
-h1{
+h1.big{
     margin:80px 0 0 80px;
 	font-size: 60px;
 	
