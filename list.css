@@ -13,7 +13,7 @@ ul.ddmenu li{
 
 ul.ddmenu a{
 	color: white;
-	background-color: mediumpurple;
+	background-color: black;
 	line-height: 40px;
 	text-align: center;
 	text-decoration: none;
@@ -25,9 +25,9 @@ ul.ddmenu ul{
 	display: none;
 }
 
-ul.ddmenu a:hove r{
-	background-color: pink;
-	color: yellow;
+ul.ddmenu a:hover{
+	background-color: brown;
+	color: darkred;
 }
 
 ul.ddmenu li:hover ul{
