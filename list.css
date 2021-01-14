@@ -27,7 +27,7 @@ ul.ddmenu ul{
 
 ul.ddmenu a:hover{
 	background-color: brown;
-	color: darkred;
+	color: blue;
 }
 
 ul.ddmenu li:hover ul{
