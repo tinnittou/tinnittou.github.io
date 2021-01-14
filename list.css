@@ -12,3 +12,7 @@ ul.ddmenu li{
 ul.ddmenu a{
 	color: white;
 }
+
+ul.ddmenu ul{
+	display: none;
+}
