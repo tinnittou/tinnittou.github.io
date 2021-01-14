@@ -3,3 +3,8 @@ ul.ddmenu{
 	margin: 0px;
 	padding: 0px 0px 0px 15px;
 }
+
+ul.ddmenu li{
+	width: 125px;
+	display: inline-block;
+}
