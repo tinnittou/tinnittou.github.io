@@ -25,3 +25,10 @@ ul.ddmenu a:hover{
 ul.ddmenu li:hover ul{
 	display: block;
 }
+
+ul.ddmenu ul{
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+}
