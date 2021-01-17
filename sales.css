@@ -23,9 +23,6 @@ ul.menu a{
 
 ul.menu ul{
     display: none;
-    margin: 0px;
-	padding: 0px;
-	position: absolute;
 }
 
 ul.menu a:hover{
@@ -35,4 +32,11 @@ ul.menu a:hover{
 
 ul.menu li:hover ul{
     display: block;
+}
+
+ul.ddmenu ul{
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
 }
