@@ -1,17 +1,17 @@
-ul.ddmenu {
+ul.menu {
 	background-color:yellow;
 	margin: 0px;
 	padding: 0px 0px 0px 15px;
 }
 
-ul.ddmenu li{
+ul.menu li{
 	width: 125px;
 	display: inline-block;
 	list-style-type: none;
 	position: relative;
 }
 
-ul.ddmenu a{
+ul.menu a{
 	color: white;
 	background-color: pink;
 	line-height: 40px;
@@ -21,20 +21,20 @@ ul.ddmenu a{
 	display: block;
 }
 
-ul.ddmenu ul{
+ul.menu ul{
 	display: none;
 }
 
-ul.ddmenu a:hover{
+ul.menu a:hover{
 	background-color: mediumpurple;
 	color: blue;
 }
 
-ul.ddmenu li:hover ul{
+ul.menu li:hover ul{
 	display: block;
 }
 
-ul.ddmenu ul{
+ul.menu ul{
 	display: none;
 	margin: 0px;
 	padding: 0px;
