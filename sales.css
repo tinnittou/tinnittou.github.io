@@ -40,3 +40,13 @@ ul.menu ul{
 	padding: 0px;
 	position: absolute;
 }
+
+ul.menu marquee{
+    background-color: peru;
+    size: 80px;
+    behavior: alternate;
+}
+
+ul.menu h1{
+    color: coral;
+}
