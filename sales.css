@@ -1,18 +1,18 @@
-ul.menu{
-    background-color:yellow;
+ul.menu {
+	background-color:yellow;
 	margin: 0px;
 	padding: 0px 0px 0px 15px;
 }
 
 ul.menu li{
-    width: 125px;
+	width: 125px;
 	display: inline-block;
 	list-style-type: none;
 	position: relative;
 }
 
 ul.menu a{
-    color: white;
+	color: white;
 	background-color: pink;
 	line-height: 40px;
 	text-align: center;
@@ -22,19 +22,19 @@ ul.menu a{
 }
 
 ul.menu ul{
-    display: none;
+	display: none;
 }
 
 ul.menu a:hover{
-    background-color: mediumpurple;
+	background-color: mediumpurple;
 	color: blue;
 }
 
 ul.menu li:hover ul{
-    display: block;
+	display: block;
 }
 
-ul.ddmenu ul{
+ul.menu ul{
 	display: none;
 	margin: 0px;
 	padding: 0px;
