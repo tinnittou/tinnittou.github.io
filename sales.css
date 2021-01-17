@@ -27,7 +27,7 @@ ul.menu ul{
 
 ul.menu a:hover{
 	background-color: mediumpurple;
-	color: blue;
+	color:cyan;
 }
 
 ul.menu li:hover ul{
@@ -42,7 +42,7 @@ ul.menu ul{
 }
 
 ul.menu marquee{
-    background-color: peru;
+    background-color: palegreen;
     size: 80px;
     behavior: alternate;
 }
