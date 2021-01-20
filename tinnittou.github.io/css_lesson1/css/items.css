@@ -1,7 +1,9 @@
 body{
     margin: 0;
+    padding: 25px;
     color: purple;
     background-color:powderblue;
+    text-align: center;
 }
 
 h2.moji{
