@@ -40,6 +40,9 @@ ul.menu ul{
 	padding: 0px;
 	position: absolute;
 }
-.photos img{
-    text-align: center;
+
+div.part1{
+    width: 300px;
+    height: 300px;
+    border-style: solid;
 }
