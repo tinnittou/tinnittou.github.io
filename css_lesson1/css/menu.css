@@ -2,7 +2,6 @@ ul.menu{
     margin: 0px;
     padding: 0px 0px 0px 0px;
     background-color: silver;
-    display: flex;
 }
 ul.menu li{
     display: inline-block;
@@ -41,39 +40,6 @@ ul.menu ul{
 	padding: 0px;
 	position: absolute;
 }
-
-div.part1{
-    width: 300px;
-    height: 300px;
-    border-style: solid;
-    border-color: cornflowerblue;
-    margin: 0px auto;
+.photos img{
     text-align: center;
 }
-
-div.part2{
-    width: 300px;
-    height: 300px;
-    border-style: solid;
-    border-color: cornflowerblue;
-    margin: 0px auto;
-    text-align: center;
-}
-
-div.part3{
-    width: 300px;
-    height: 300px;
-    border-style: solid;
-    border-color: cornflowerblue;
-    margin: 0px auto;
-    text-align: center;}
-
-div.part4{
-    width: 300px;
-    height: 300px;
-    border-style: solid;
-    border-color: cornflowerblue;
-    margin: 0px auto;
-    text-align: center;
-}
-div
