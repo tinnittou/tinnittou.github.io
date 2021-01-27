@@ -3,6 +3,9 @@ ul.menu{
     padding: 0px 0px 0px 0px;
     background-color: silver;
     display: flex;
+    min-width: 300px;
+    flex-direction:row;
+    flex-flow: row wrap;
 }
 ul.menu li{
     display: inline-block;
