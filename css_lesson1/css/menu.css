@@ -41,8 +41,30 @@ ul.menu ul{
 	position: absolute;
 }
 
-div.part1part2part3part4{
+div.part1{
     width: 300px;
     height: 300px;
     border-style: solid;
+    border-color: cornflowerblue;
+}
+
+div.part2{
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: cornflowerblue;
+}
+
+div.part3{
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: cornflowerblue;
+}
+
+div.part4{
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: cornflowerblue;
 }
