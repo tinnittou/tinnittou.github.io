@@ -1,6 +1,7 @@
 ul.menu{
     margin: 0px;
     padding: 0px 0px 0px 0px;
+    background-color: silver;
 }
 ul.menu li{
     display: inline-block;
@@ -41,7 +42,7 @@ ul.menu ul{
 }
 
 div.part1{
-    width: 300px;
+    width: 295px;
     height: 300px;
     border-style: solid;
     border-color: cornflowerblue;
@@ -52,7 +53,7 @@ div.part1{
 }
 
 div.part2{
-    width: 300px;
+    width: 295px;
     height: 300px;
     border-style: solid;
     border-color: cornflowerblue;
@@ -63,7 +64,7 @@ div.part2{
 }
 
 div.part3{
-    width: 300px;
+    width: 295px;
     height: 300px;
     border-style: solid;
     border-color: cornflowerblue;
@@ -74,7 +75,7 @@ div.part3{
 }
 
 div.part4{
-    width: 300px;
+    width: 295px;
     height: 300px;
     border-style: solid;
     border-color: cornflowerblue;
