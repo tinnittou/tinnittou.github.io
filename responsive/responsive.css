@@ -15,7 +15,7 @@
 }
 .navbar .nav-list a{
     color: white;
-    line-height: 50px;
+    line-height: 38px;
     text-decoration-line: none;
 }
 .navbar .nav-list  a:hover{
@@ -67,7 +67,6 @@
          line-height: 0;
          padding-top: 10px;
          text-align: center;
-
     }
     .navbar  .menu-icon>svg path{
          fill: white;
@@ -129,10 +128,11 @@ div.part1{
     height: 300px;
     border-style: solid;
     border-color: cornflowerblue;
-    background-image: url("../img/strawberry.jpg");
+    background-image: url("../css_lesson2/img/strawberry.jpg");
     background-size:100% 100%;
     margin: 0px auto;
     float: left;
+    margin-left: 30px;
 }
 
 div.part2{
@@ -140,10 +140,11 @@ div.part2{
     height: 300px;
     border-style: solid;
     border-color: cornflowerblue;
-    background-image: url("../img/pink.jpg");
+    background-image: url("../css_lesson2/img/pink.jpg");
     background-size:100% 100%;
     margin: 0px auto;
     float: left;
+    margin-left: 28px;
 }
 
 div.part3{
@@ -151,10 +152,11 @@ div.part3{
     height: 300px;
     border-style: solid;
     border-color: cornflowerblue;
-    background-image: url("../img/icebox.png");
+    background-image: url("../css_lesson2/img/icebox.png");
     background-size:100% 100%;
     margin: 0px auto;
     float: left;
+    margin-left: 25px;
 }
 
 div.part4{
@@ -162,7 +164,8 @@ div.part4{
     height: 300px;
     border-style: solid;
     border-color: cornflowerblue;
-    background-image: url("../img/question.jpg");
+    background-image: url("../css_lesson2/img/question.jpg");
     background-size:100% 100%;
     float: left;
+    margin-left: 25px;
 }
