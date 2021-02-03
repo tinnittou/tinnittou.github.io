@@ -1,0 +1,168 @@
+.navbar{
+    background-color: #34495E;
+    height: 50px;
+    display: block;
+}
+.navbar .nav-list{
+    z-index: 0;
+    display: block;
+
+}
+.navbar .nav-list li{
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+}
+.navbar .nav-list a{
+    color: white;
+    line-height: 50px;
+    text-decoration-line: none;
+}
+.navbar .nav-list  a:hover{
+    color: #1ABC9C;
+
+}
+.navbar input:checked~.nav-list {
+    position: absolute;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+     display: block;
+     background-color: #34495E;
+     z-index: 0;
+     margin-top: 50px;
+
+}
+.navbar input:checked~.nav-list li{
+ clear: both;
+ background-color: #34495E;
+
+}
+.navbar label{
+    display: none;
+}
+.navbar .nav-toggle{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .navbar .nav-toggle{
+        display: none;
+    }
+    .navbar label{
+        display: block;
+        z-index: 4;
+    }
+    .navbar .nav-list{
+        display: none;
+        margin-left: 0px;
+    }
+    .navbar .nav-list li{
+        margin-left: 0px;
+    }
+    .navbar  .menu-icon{
+         display: block;
+         float: left;
+         width: 36px;
+         height: 26px;
+         line-height: 0;
+         padding-top: 10px;
+         text-align: center;
+
+    }
+    .navbar  .menu-icon>svg path{
+         fill: white;
+    }
+    .navbar  label[for="nav-toggler"] {
+         display: block;
+         float: left;
+         width: 36px;
+         height: 36px;
+         z-index: 2;
+         cursor: pointer;
+     }
+}
+ul.nav-list{
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: silver;
+}
+ul.nav-list li{
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+    width: 296px;
+}
+
+ul.nav-list a{
+    text-decoration: none;
+    color:sienna;
+    padding:6px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    background-color:lightgreen;
+}
+
+ul.nav-list a:hover{
+    background-color: cadetblue;
+    color: lightgoldenrodyellow;
+}
+
+ul.nav-list li:hover ul{
+    display: block;
+}
+ul.nav-list ul{
+    display: none;
+}
+
+ul.nav-listu ul{
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+}
+
+div.part1{
+    width: 295px;
+    height: 300px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    background-image: url("../img/strawberry.jpg");
+    background-size:100% 100%;
+    margin: 0px auto;
+    float: left;
+}
+
+div.part2{
+    width: 295px;
+    height: 300px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    background-image: url("../img/pink.jpg");
+    background-size:100% 100%;
+    margin: 0px auto;
+    float: left;
+}
+
+div.part3{
+    width: 295px;
+    height: 300px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    background-image: url("../img/icebox.png");
+    background-size:100% 100%;
+    margin: 0px auto;
+    float: left;
+}
+
+div.part4{
+    width: 295px;
+    height: 300px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    background-image: url("../img/question.jpg");
+    background-size:100% 100%;
+    float: left;
+}
