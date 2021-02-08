@@ -234,4 +234,51 @@
   .content .space{
     margin: 10px 0;
   }
+  div.part1{
+    width: 295px;
+    height: 300px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    background-image: url("../responsive1/img/heart.img");
+    background-size:100% 100%;
+    margin: 0px auto;
+    float: left;
+    margin-left: 25px;
+}
+
+div.part2{
+    width: 295px;
+    height: 300px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    background-image: url("../responsive1/img/scarf.img");
+    background-size:100% 100%;
+    margin: 0px auto;
+    float: left;
+    margin-left: 25px;
+}
+
+div.part3{
+    width: 295px;
+    height: 300px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    background-image: url("../responsive1/img/green.img");
+    background-size:100% 100%;
+    margin: 0px auto;
+    float: left;
+    margin-left: 25px;
+}
+
+div.part4{
+    width: 295px;
+    height: 300px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    background-image: url("../responsive1/img/desk.img");
+    background-size:100% 100%;
+    float: left;
+    margin-left: 25px;
+}
+
   
